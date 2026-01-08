@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Reset & Base */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: smoother rendering */
+body {
+  @apply bg-[#0A0A0A] text-[#F5F5F5] antialiased;
+}
