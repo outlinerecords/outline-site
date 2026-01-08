@@ -3,6 +3,7 @@ import "./globals.css";
 import { ReactNode } from "react";
 import PageTransition from "@/components/PageTransition";
 import Cookiebot from "@/components/Cookiebot";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata = {
   title: "OUTLINE MEDIA",
@@ -34,7 +35,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         <main>
           <PageTransition>{children} 
+
           <Cookiebot />
+          <MobileNav />
           </PageTransition>
         </main>
         <Footer />
