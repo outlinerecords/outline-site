@@ -52,7 +52,7 @@ export default function Home() {
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.2 }} className="lg:col-span-7 space-y-10">
           <p className="text-[10px] sm:text-[11px] tracking-[0.25em] lg:tracking-[0.4em] text-white/40">
-            OUTLINE MEDIA — MODERN MUSIC & MEDIA COMPANY
+            OUTLINE MEDIA — MODERN MUSIC & MEDIA PROJECT
           </p>
 
           <h1 className="text-[42px] sm:text-5xl lg:text-[96px] font-light tracking-tight leading-[1.05] lg:leading-[0.95]">

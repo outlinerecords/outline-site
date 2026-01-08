@@ -10,7 +10,7 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-white/50 leading-relaxed max-w-sm">
-            A modern music & media company.
+            A modern music & media project.
             <br />
             Designing artist systems, not moments.
           </p>
