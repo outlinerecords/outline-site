@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import { ReactNode } from "react";
-
+import PageTransition from "@/components/PageTransition";
 
 export const metadata = {
   title: "OUTLINE MEDIA",
@@ -29,7 +29,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </div>
         </header>
 
-        <main>{children}</main>
+        <main>
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
       </body>
     </html>
